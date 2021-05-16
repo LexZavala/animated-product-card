@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+.mainContainer {
+    /*background-color: lightblue;*/
+    width: 50%;
+}
+
+.cardContainer {
+    min-height: 65vh;
+    width: 45em;
+    border-radius: 30px;
+    padding: 0 6em;
+    box-shadow: 0 20px 20px rgba(0,0, 0, 0.2), 0px 0px 35px rgba(0, 0, 0, 0.2);
+}
+.sneaker {
+    min-height: 35vh;
+}
+.sneaker img {
+    width: 32em;
+    position: relative;
+}
+
+.circle {
+    width: 20em;
+    height: 20em;
+    background: linear-gradient(45deg, #d3e05e, #7cb9dc, #3068ae );
+    position: absolute;
+    border-radius: 50%;
+}
+
+.info h1 {
+    font-size: 4em;
+    font-weight: bold;
+    padding-bottom: .5em;
+}
+
+.info h3 {
+    font-size: 2em;
+    padding: .1em 0;
+    color: lightslategrey;
+}
+
+.sizes button {
+    padding: 0.5em 2em;
+    background: none;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0,0, 0, 0.2);
+    border-radius: 30px;
+
+}
