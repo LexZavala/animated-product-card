@@ -52,10 +52,34 @@ body {
 }
 
 .sizes button {
+    margin-top: 2.5em;
     padding: 0.5em 2em;
     background: none;
     border: none;
-    box-shadow: 0 5px 10px rgba(0,0, 0, 0.2);
+    box-shadow: 0 7px 10px rgba(0,0, 0, 0.2);
     border-radius: 30px;
+    font-weight: bold;
+    font-size: large;
+    color: #343434;
+}
 
+button.active {
+    background: lightslategrey;
+    color: whitesmoke;
+}
+
+.purchase {
+    margin-top: 5em;
+}
+
+.purchase button {
+    width: 100%;
+    padding: 1em 0;
+    background: #d3e05e;
+    border: none;
+    color: #343434;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: x-large;
+    border-radius: 30px;
 }
