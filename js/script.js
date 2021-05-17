@@ -3,6 +3,12 @@
 const card = document.querySelector('.cardContainer');
 const container = document.querySelector('.mainContainer');
 
+const title = document.querySelector('.title');
+const sneaker = document.querySelector('.sneaker img');
+const purchase = document.querySelector('.purchase button');
+const description = document.querySelector('.title');
+const sizes = document.querySelector('.title');
+
 //moving animation container
 container.addEventListener("mousemove", function (e){
     // console.log(e.pageY);
