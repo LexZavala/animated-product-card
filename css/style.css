@@ -9,7 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
-    perspective: 900px;
+    perspective: 850px;
 }
 
 .mainContainer {
