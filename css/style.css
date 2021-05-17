@@ -12,7 +12,6 @@ body {
 }
 
 .mainContainer {
-    /*background-color: lightblue;*/
     width: 50%;
 }
 
@@ -83,3 +82,5 @@ button.active {
     font-size: x-large;
     border-radius: 30px;
 }
+
+
