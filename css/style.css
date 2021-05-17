@@ -9,18 +9,22 @@
 body {
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
+    perspective: 900px;
 }
 
 .mainContainer {
     width: 50%;
+    /*background-color: lightpink;*/
+
 }
 
 .cardContainer {
     min-height: 65vh;
-    width: 45em;
+    width: 48em;
     border-radius: 30px;
     padding: 0 6em;
     box-shadow: 0 20px 20px rgba(0,0, 0, 0.2), 0px 0px 35px rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
 }
 .sneaker {
     min-height: 35vh;
