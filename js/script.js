@@ -37,8 +37,4 @@ container.addEventListener('mouseleave', function (e){
     title.style.transform ='translateZ(0px)';
     sneaker.style.transform = 'translateZ(0px) rotateZ(0deg)';
     description.style.transform = 'translateZ(0px)';
-
-
-
-
 });
