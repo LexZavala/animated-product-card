@@ -30,7 +30,6 @@ container.addEventListener('mouseenter', function (e){
 
 });
 
-
 //Animate Out
 container.addEventListener('mouseleave', function (e){
     card.style.transition = 'all 0.5s ease';
