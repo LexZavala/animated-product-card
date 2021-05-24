@@ -13,7 +13,7 @@ body {
 }
 
 .mainContainer {
-    width: 50%;
+    width: 30%;
     /*background-color: lightpink;*/
 
 }
@@ -22,7 +22,8 @@ body {
     min-height: 45em;
     width: 27em;
     border-radius: 30px;
-    padding: 0 6em;
+    /*padding: 0 4em;*/
+    margin: 0 auto;
     box-shadow: 0 20px 20px rgba(0,0, 0, 0.2), 0px 0px 35px rgba(0, 0, 0, 0.2);
     transform-style: preserve-3d;
 }
@@ -30,15 +31,15 @@ body {
     min-height: 25vh;
 }
 .sneaker img {
-    width: 17em;
+    width: 19em;
     position: relative;
     transition: all 0.75s ease-out;
     margin-top: 3em;
 }
 
 .circle {
-    width: 11em;
-    height: 11em;
+    width: 13em;
+    height: 13em;
     background: linear-gradient(45deg, #d3e05e, #7cb9dc, #3068ae );
     position: absolute;
     border-radius: 50%;
@@ -49,9 +50,15 @@ body {
 .title {
     font-size: 2.1em;
     font-weight: bold;
-    padding-bottom: .4em;
+    padding-bottom: .8em;
     padding-top: .6em;
+    margin-top: 1em;
     transition: all 0.75s ease-out;
+}
+
+.info {
+    width: 320px;
+    margin: 0 auto;
 }
 
 .info h3 {
@@ -60,9 +67,12 @@ body {
     color: lightslategrey;
     transition: all 0.75s ease-out;
 }
-
+.sizes {
+    margin-top: 4.2em;
+    transition: all 0.75s ease-out;
+}
 .sizes button {
-    margin: 2.5em .5em 0 .5em;
+    margin: 0em .5em 0 .5em;
     padding: .5em 2em;
     background: none;
     border: none;
@@ -80,7 +90,6 @@ button.active {
 }
 
 .purchase {
-    margin-top: 5em;
     transition: all 0.75s ease-out;
     font-size: small;
 }
@@ -89,14 +98,18 @@ button.active {
     width: 100%;
     height: 2em;
     padding: 0;
-    margin: 0 0 3em 0;
+    margin: 2.5em 0 2em 0;
     background: #d3e05e;
     border: none;
     color: #343434;
     cursor: pointer;
     font-weight: bold;
-    font-size: x-large;
+    font-size: 20px;
     border-radius: 30px;
+}
+
+i {
+    margin-left: .5em;
 }
 
 

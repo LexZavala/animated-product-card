@@ -25,7 +25,8 @@ container.addEventListener('mouseenter', function (e){
     title.style.transform = 'translateZ(90px)';
     sneaker.style.transform = 'translateZ(90px)';
     description.style.transform = 'translateZ(80px)';
-    purchase.style.transform = 'translateZ(75px)';
+    purchase.style.transform = 'translateZ(70px)';
+    sizes.style.transform = 'translateZ(65px)';
 
 });
 
@@ -39,4 +40,5 @@ container.addEventListener('mouseleave', function (e){
     sneaker.style.transform = 'translateZ(0px) rotateZ(0deg)';
     description.style.transform = 'translateZ(0px)';
     purchase.style.transform = 'translateZ(0px)';
+    sizes.style.transform = 'translateZ(0px)';
 });
