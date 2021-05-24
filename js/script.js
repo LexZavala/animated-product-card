@@ -22,12 +22,10 @@ container.addEventListener("mousemove", function (e){
 container.addEventListener('mouseenter', function (e){
     card.style.transition = 'none';
     //POPOUT
-    title.style.transform = 'translateZ(100px)';
-    sneaker.style.transform = 'translateZ(100px)';
+    title.style.transform = 'translateZ(90px)';
+    sneaker.style.transform = 'translateZ(90px)';
     description.style.transform = 'translateZ(80px)';
     purchase.style.transform = 'translateZ(75px)';
-
-
 
 });
 
