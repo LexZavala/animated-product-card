@@ -5,7 +5,7 @@ const container = document.querySelector('.mainContainer');
 
 const title = document.querySelector('.title');
 const sneaker = document.querySelector('.sneaker img');
-const purchase = document.querySelector('.purchase button');
+const purchase = document.querySelector('.purchase');
 const description = document.querySelector('.info h3');
 const sizes = document.querySelector('.sizes');
 
@@ -23,8 +23,11 @@ container.addEventListener('mouseenter', function (e){
     card.style.transition = 'none';
     //POPOUT
     title.style.transform = 'translateZ(100px)';
-    sneaker.style.transform = 'translateZ(150px)';
-    description.style.transform = 'translateZ(100px)';
+    sneaker.style.transform = 'translateZ(100px)';
+    description.style.transform = 'translateZ(80px)';
+    purchase.style.transform = 'translateZ(75px)';
+
+
 
 });
 
@@ -37,4 +40,5 @@ container.addEventListener('mouseleave', function (e){
     title.style.transform ='translateZ(0px)';
     sneaker.style.transform = 'translateZ(0px) rotateZ(0deg)';
     description.style.transform = 'translateZ(0px)';
+    purchase.style.transform = 'translateZ(0px)';
 });

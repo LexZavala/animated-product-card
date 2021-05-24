@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
+    height: 100vh;
     perspective: 850px;
 }
 
@@ -19,53 +19,54 @@ body {
 }
 
 .cardContainer {
-    min-height: 80vh;
-    width: 48em;
+    max-height: 40em;
+    width: 27em;
     border-radius: 30px;
     padding: 0 6em;
     box-shadow: 0 20px 20px rgba(0,0, 0, 0.2), 0px 0px 35px rgba(0, 0, 0, 0.2);
     transform-style: preserve-3d;
 }
 .sneaker {
-    min-height: 35vh;
+    min-height: 25vh;
 }
 .sneaker img {
-    width: 32em;
+    width: 17em;
     position: relative;
     transition: all 0.75s ease-out;
 }
 
 .circle {
-    width: 20em;
-    height: 20em;
+    width: 11em;
+    height: 11em;
     background: linear-gradient(45deg, #d3e05e, #7cb9dc, #3068ae );
     position: absolute;
     border-radius: 50%;
 }
 
-.info h1 {
-    font-size: 4em;
+.title {
+    font-size: 2.1em;
     font-weight: bold;
-    padding-bottom: .5em;
+    padding-bottom: .4em;
+    padding-top: .6em;
     transition: all 0.75s ease-out;
 }
 
 .info h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     padding: .1em 0;
     color: lightslategrey;
     transition: all 0.75s ease-out;
 }
 
 .sizes button {
-    margin-top: 2.5em;
-    padding: 0.5em 2em;
+    margin: 2.5em .5em 0 .5em;
+    padding: .5em 2em;
     background: none;
     border: none;
     box-shadow: 0 7px 10px rgba(0,0, 0, 0.2);
     border-radius: 30px;
     font-weight: bold;
-    font-size: large;
+    font-size: small;
     color: #343434;
     transition: all 0.75s ease-out;
 }
@@ -82,7 +83,9 @@ button.active {
 
 .purchase button {
     width: 100%;
-    padding: 1em 0;
+    height: 2em;
+    padding: 0;
+    margin-bottom: 2em;
     background: #d3e05e;
     border: none;
     color: #343434;
